@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "WebRTC"
-  s.version      = "0.0.1"
+  s.version      = "0.1"
   s.summary      = "WebRTC static libraries and objc headers."
 
   s.description  = <<-DESC
@@ -10,17 +10,17 @@ Pod::Spec.new do |s|
                    Just add this cocoa pod to your Podfile and be happy. :)
                    DESC
 
-  s.homepage     = "https://www.ahoyconference.com"
+  s.homepage     = "https://github.com/shaozl/webrtc-iosm"
 
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
-  s.author             = { "Klaus-Peter Junghanns" => "kapejod@gmail.com" }
-  s.social_media_url   = "http://twitter.com/kapejod"
+  s.author             = { "Dai Lao San" => "macchina1988@gmail.com" }
+  s.social_media_url   = "http://twitter.com/mangoo_1"
 
   s.platform     = :ios
 
-  s.source       = { :git => "https://github.com/kapejod/webrtc-ios.git", :tag => "v0.0.1" }
+  s.source       = { :git => "https://github.com/shaozl/webrtc-ios.git", :tag => "v0.0.1" }
 
 
   s.source_files  = "include/*.h"
